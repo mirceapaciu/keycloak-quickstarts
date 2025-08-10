@@ -4,3 +4,5 @@ spring:
       resourceserver:
         jwt:
           jwk-set-uri: http://localhost:8180/realms/quickstart/protocol/openid-connect/certs
+server:
+  address: 0.0.0.0 # Exposes the service on all interfaces
